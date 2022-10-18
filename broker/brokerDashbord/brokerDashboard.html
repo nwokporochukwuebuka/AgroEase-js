@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="/brokerGlobal.css">
+    <link rel="stylesheet" href="../brokerDashbord/brokerDashboard.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard Panel</title> 
+</head>
+<body>
+
+     <!-- This is the navbar which is on the side  -->
+    <nav>
+        <div class="logo-name">
+            <div class="logo-name" style=" height: 60px;">
+                <img src="/assets/logo.png" alt="">
+            </div>
+
+            
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="/broker/brokerDashbord/brokerDashboard.html">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="/pages/brokerclientpage/brokerclient.html">
+                    
+                    <i class="uil uil-users-alt"></i>
+                    <span class="link-name">My Client</span>
+                </a></li>
+                <li><a href="/broker/brokerReferral/brokerReferral.html">
+                    <i class="uil uil-elipsis-double-v-alt"></i>
+                    <span class="link-name">Refferal</span>
+                </a></li>
+                
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="/broker/brokerlogin$signup/brokerlogin.html">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+
+        <!-- this is where is the top bar with green backgound begins -->
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box ">
+                <h1 class="greet">Hello, Godswill</h1>
+                <p style="color:#FFFFFF;" class="nav-date">Today Is Thursday, 22 September, 2022</p>
+            </div>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            
+               <a href="">
+                <div class="notification">
+                    <i class="uil uil-bell"  id="noti-bell"></i>
+                    <span class="badge"></span>
+                   </div>
+               </a>
+            
+
+            
+            <img src="/assets/godswill.png" alt="">
+          
+            <!-- This is where the top bar with green backgound  ends -->    
+        </div>
+        <!-- You code should start below this comment -->
+
+        <div class="dash-content">
+            <div class="overview">
+               <div class="title">
+                   
+                   <span class="text">Dashboard</span> <br>
+                   <br>
+                   <div class="text">Today</div>
+               </div>
+
+               <div class="boxes">
+                   <div class="box box1">
+                       <i class="uil uil-user-arrows"></i>
+                       <span class="text">Total Clients</span>
+                       <span class="number">50,120</span>
+                   </div>
+                   <div class="box box2">
+                       <i class="uil uil-user-plus"></i>
+                       <span class="text">Active Clients</span>
+                       <span class="number">20,120</span>
+                   </div>
+                   <div class="box box3">
+                       <div class="weather-name"> Weather Report</div>
+                       <div class="weather-image"> 
+                           <div class="weather-cycle"></div>
+                           <span><img></span>
+                       </div>
+                       <div class="weathe-rate">
+                           <span class="weather-text">Today:</span> <span class="weather-num">29</span>
+                       </div>
+                   </div>
+
+                   
+               </div>
+           </div> 
+
+           <div class="activity">
+               <div class="title">
+                  
+               </div>
+
+               <div class="activity-data">
+                <div>
+                    <img src="/assets/chart 1.PNG">
+                  </div>
+                  <div>
+                    <img src="/assets/chart2.PNG">
+                  </div>
+               </div>
+           </div>  
+       </div>
+
+        <!-- your code should end here, do not go outside this section -->
+   </section>
+
+
+
+     <!-- your code should end here, do not go outside this section -->
+
+    <script src="/brokerGlobal.js"></script>
+</body>
+</html>

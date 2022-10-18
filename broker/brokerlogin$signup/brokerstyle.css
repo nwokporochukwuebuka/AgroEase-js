@@ -1,0 +1,207 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.bmain-container{
+    background-color: #E6F2E7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    height: 1000px;
+
+}
+
+.text-container{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39.81px;
+  line-height: 47px;
+
+}
+
+.form-div{
+    background-color:#FFFFFF;
+    width: 580px;
+    height: 734px;
+   border-radius: 25px;
+}
+
+#create-account-form {
+    width:568px;
+    height: 720px;
+    padding:20px;
+    
+    background-color:#FAFBFB;
+    border-radius: 10px;
+    border-radius: 25px;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px; 
+    border-radius: 5px;
+    height: 56px;  
+    border: 1px solid rgb(186, 186, 185);
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+ .btn {
+     width:164px;
+     height: 44px;
+     padding:10px;
+     font-size: 15px;
+     background-color: #097C0D;
+     color:#fff;
+     text-transform: uppercase;
+     border:none;
+     border-radius: 10px;
+     text-align: center;
+     position: relative;
+     left: 190px;
+
+     
+ }
+
+ .altanative-text{
+    position: relative;
+    top: 20px;
+    left: 160px;
+ }
+
+ .alt-link{
+    text-decoration: none;
+    color:  #097C0D;
+ }
+
+ .or-txt{
+    
+    position: relative;
+    top: 40px;
+    left: 260px;
+ }
+
+ .google-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+ }
+
+ .google-img{
+    width: 50px;
+    height: 50px;
+ }
+
+ @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(173, 230, 197);
+    }
+  }
+
+  @media only screen and (max-width: 412px) {
+    .bmain-container {
+      background-color: #E6F2E7;
+      flex: none;
+      height: 800px;
+    }
+
+    #create-account-form{
+        width:400px;
+        padding:20px;
+        text-transform: uppercase;
+        background-color: #fff;
+        border-radius: 10px;
+
+    }
+    .image-container{
+        display: none;
+    }
+
+    .text-container{
+        display: none;
+    }
+    
+    .btn{
+
+       position: relative;
+       left: 100px;
+        
+    }
+
+    .altanative-text{
+        position: relative;
+        left: 40px;
+    }
+
+    .or-txt{
+    
+        position: relative;
+        top: 40px;
+        left: 170px;
+     }
+    
+  }
+
+
+
+
+
+
+
+

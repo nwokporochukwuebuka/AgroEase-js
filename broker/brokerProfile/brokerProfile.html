@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="/brokerGlobal.css">
+    <link rel="stylesheet" href="brokerProfile.css">
+  
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Broker Dashboard Panel</title> 
+</head>
+<body>
+
+     <!-- This is the navbar which is on the side  -->
+    <nav>
+        <div class="logo-name">
+            <div class="logo-name" style=" height: 60px;">
+                <img src="/assets/logo.png" alt="">
+            </div>
+
+            
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="#">
+                    
+                    <i class="uil uil-users-alt"></i>
+                    <span class="link-name">My Client</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-elipsis-double-v-alt"></i>
+                    <span class="link-name">Refferal</span>
+                </a></li>
+                
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+        <!-- this is where the navbar by the side ends -->
+    </nav>
+
+    <section class="dashboard">
+
+        <!-- this is where is the top bar with green backgound begins -->
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box ">
+                <h1 class="greet">Hello, Godswill</h1>
+                <p style="color:#FFFFFF;" class="nav-date">Today Is Thursday, 22 September, 2022</p>
+            </div>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            
+               <a href="">
+                <div class="notification">
+                    <i class="uil uil-bell"  id="noti-bell"></i>
+                    <span class="badge"></span>
+                   </div>
+               </a>
+            
+
+            
+            <img src="/assets/godswill.png" alt="">
+          
+            <!-- This is where the top bar with green backgound  ends -->    
+        </div>
+        <!-- You code should start below this comment -->
+        <div class="forms">
+            <form action="" id="brokerProfile">
+                <h3 class="title">Profile</h3>
+                <div class="broker-profile">
+
+                    <!-- First name -->
+                    <div class="name">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <!-- Last name -->
+                    <div class="email">
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email">
+                    </div>
+                </div>
+                <div class="broker-profile">
+                    <div class="password">
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class=" confirmPasswd ">
+                        <label for="Phone">Confirm Password</label><br>
+                        <input type="password" id="confirmPasswd" name="confirmPasswd">
+                    </div>
+                </div>
+                <div class="broker-profile">
+                    <div class="PhoneNumber">
+                        <label for="firstname">Phone Number</label><br>
+                        <input type="number" id="PhoneNo" name="phonnumber">
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label><br>
+                    <div class="broker-radio">
+                    <label for="male">Male</label>
+                    <input type="radio" name="colors" id="male">
+                    <label for="female" class="lab">Female</label>
+                    <input type="radio" name="colors" id="female">
+
+                </div>
+                  </div>
+                    </div> 
+                    <!-- </div>  -->
+                <div class="address">
+                    <label for="address">Address</label>
+                    <input type="text" size="69"  id="firstname" name="firstname">
+                </div>
+                <br>
+                <div class="writeup">
+                    <div class="box-click">
+                        <input type="checkbox">
+
+                    </div>
+
+                    <div class="brokerprofileinfo">
+                       <p>by clicking, you agree to AgroEase's <span>Terms of Service</span> and acknowledge that AgroEase's
+                         <span> Privacy Policy</span> applies to you</p> 
+
+                    </div>
+                </div>
+                <br>
+                <div class="brokerprofile-submit">
+                    <div class="getId">
+                        <h2 id="bub">Submit to Generate ID</h2>
+                    </div>
+                </div>
+                
+                
+              
+            </form>
+        </div>
+        <div id="overlay">
+            <div class="displayID">
+            <h1>Congratulations</h1>
+            <h3>Your ID Number is</h3>
+            <h1 id="ID"></h1>
+            <button class="close" id="close">close</button>
+        </div>
+        </div>
+      
+        
+    
+
+     <!-- your code should end here, do not go outside this section -->
+    </section>
+  
+    <script src="/brokerGlobal.js"></script>
+    <script src="brokerprofile.js"></script>
+</body>
+</html>

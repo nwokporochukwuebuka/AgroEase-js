@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../brokerReferral/brokerReferral.css" />
+    <link rel="stylesheet" href="/brokerGlobal.css" />
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <title>Broker Dashboard Panel</title>
+</head>
+
+<body>
+    <!-- This is the navbar which is on the side  -->
+    <nav>
+        <div class="logo-name">
+            <div class="logo-name" style="height: 60px">
+                <img src="/assets/logo.png" alt="" />
+            </div>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li>
+                    <a href="/broker/brokerDashbord/brokerDashboard.html">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Dahsboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/brokerclientpage/brokerclient.html">
+                        <i class="uil uil-users-alt"></i>
+                        <span class="link-name">My Client</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/broker/brokerReferral/brokerReferral.html">
+                        <i class="uil uil-elipsis-double-v-alt"></i>
+                        <span class="link-name">Refferal</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li>
+                    <a href="#">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- this is where the navbar by the side ends -->
+    </nav>
+
+    <section class="dashboard">
+        <!-- this is where is the top bar with green backgound begins -->
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <h1 class="greet">Hello, Godswill</h1>
+                <p style="color: #ffffff" class="nav-date">
+                    Today Is Thursday, 22 September, 2022
+                </p>
+            </div>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here..." />
+            </div>
+
+            <a href="">
+                <div class="notification">
+                    <i class="uil uil-bell" id="noti-bell"></i>
+                    <span class="badge"></span>
+                </div>
+            </a>
+
+            <img src="/assets/godswill.png" alt="" />
+
+            <!-- This is where the top bar with green backgound  ends -->
+        </div>
+        <!-- You code should start below this comment -->
+
+        <!-- Broker Referral Section  -->
+
+        <section class="broker-referral-container">
+            <div class="referral-header">
+                <h3>Referral</h3>
+                <h3>ID: 05678</h3>
+            </div>
+            <div>
+                <p>
+                    Invite a farmer to AgroEase, if they sign up and sell their product, then you will get 5% of their selling price
+                </p>
+            </div>
+            <div class="referral-content-img">
+                <div class="img-container-referral meeting-1">
+                    <div class="referral-img meeting">
+                        <img src="/assets/Meeting.png" alt="" />
+                    </div>
+                    <p>Invite a farmer to AgroEase, and have them join the platform</p>
+                </div>
+                <div class="arrows ar-1">
+                    <img src="/assets/Arrow 1.png" alt="" />
+                </div>
+                <div class="img-container-referral">
+                    <div class="referral-img user-male">
+                        <img src="/assets/Add User Male.png" alt="" />
+                    </div>
+                    <p>
+                        Let them register on our platform using your ID as referral code
+                    </p>
+                </div>
+                <div class="arrows ar-2">
+                    <img src="/assets/Arrow 2.png" alt="" />
+                </div>
+                <div class="img-container-referral">
+                    <div class="referral-img money-bag">
+                        <img src="/assets/Money Bag.png" alt="" />
+                    </div>
+                    <p>
+                        Let them register on our platform using your ID as referral code
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h4>Invite other brokers</h4>
+                <p>
+                    Insert their email address and send them an invitation to join AgroEase
+                </p>
+            </div>
+            <div class="referral-input">
+                <input class="ref-input" type="email" placeholder="Email Address" />
+                <div class="referral-input-img">
+                    <img src="/assets/Email Send.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <!-- your code should end here, do not go outside this section -->
+    </section>
+    <script src="/brokerGlobal.js"></script>
+</body>
+
+</html>

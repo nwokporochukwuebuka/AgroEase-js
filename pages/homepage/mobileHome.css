@@ -1,0 +1,403 @@
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 1075px) {
+  .categories-home ul {
+    padding: 0.7rem;
+    /* background-color: red; */
+  }
+
+  .home-page-article .wrapper-article {
+    padding: 9rem 12rem 0 4rem;
+  }
+
+  .wrapper-article .wrapper-writeup p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* OUR MARKET  */
+  .containers {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
+  .card {
+    width: 18rem;
+  }
+
+  .broker-child .broker-child2 {
+    /* margin-top: -3rem; */
+    margin: 5rem;
+  }
+  .seller-child1 .seller-content {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .broker-child .broker-child2 {
+    /* margin-top: 4rem; */
+    margin: 6rem;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .categories-home ul {
+    padding: 0.5rem;
+  }
+
+  .categories-home {
+    margin-top: 2rem;
+  }
+  /* .broker */
+  .broker-child .broker-child2 {
+    margin: 4rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .categories-home-section {
+    flex-direction: column-reverse;
+    width: var(--container-width-md);
+    margin-top: 5%;
+  }
+  .home-page-aside-list {
+    display: none;
+  }
+
+  .home-page-article .wrapper-article {
+    /* padding: 9rem 12rem 0 4rem; */
+    padding: 7rem;
+    margin: auto 0;
+    text-align: center;
+  }
+
+  .wrapper-article button {
+    margin-left: 15rem;
+  }
+
+  .sidebar-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    background-color: var(--color-primary-variant);
+    margin: auto;
+    margin-left: 3.7rem;
+    margin-top: 0.5rem;
+    top: 20px;
+    font-weight: bold;
+  }
+
+  .sidebar-content a {
+    /* justify-content: center; */
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .sidebar-content a span {
+  }
+}
+/* OUR MARKET */
+@media screen and (max-width: 1026px) {
+  .containers {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
+  .card {
+    width: 17rem;
+  }
+}
+/* OUR MARKET */
+@media screen and (max-width: 974px) {
+  .containers {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
+  .card {
+    width: 16rem;
+  }
+}
+/* OUR MARKET */
+@media screen and (max-width: 920px) {
+  /* .containers {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  } */
+  .card {
+    width: 15rem;
+  }
+  .sidebar-bottom {
+    margin-left: 3.5rem;
+  }
+}
+/* OUR MARKET */
+@media screen and (max-width: 866px) {
+  .containers {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
+  .card {
+    width: 14rem;
+  }
+  .sidebar-bottom {
+    margin-left: 3.3rem;
+  }
+
+  .wrapper-article button {
+    margin-left: 13rem;
+  }
+}
+/* OUR MARKET */
+@media screen and (max-width: 814px) {
+  .containers {
+    /* width: var(--container-width-md); */
+    width: var(--container-width-sm);
+    margin: 0 auto;
+  }
+  .card {
+    width: 13rem;
+  }
+  /* BROKER SECTION */
+  .broker-child .broker-child2 {
+    /* margin-top: 5rem; */
+    margin: 4rem;
+    font-size: 20px;
+  }
+  .sidebar-bottom {
+    margin-left: 3rem;
+  }
+
+  .wrapper-article button {
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .seller-content h3 {
+    font-size: 30px;
+  }
+  .seller-content p {
+    font-size: 20px;
+  }
+}
+/* OUR MARKET  */
+@media screen and (max-width: 720px) {
+  .containers {
+    width: var(--container-width-sm);
+    margin: 0 auto;
+  }
+  .card {
+    width: 12rem;
+  }
+  .sidebar-bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* .categories-home-section {
+    width: 100%;
+  }*/
+  .banner-images img {
+  }
+  .home-page-arsticle {
+    margin-left: -2.5rem;
+    padding-right: -10rem;
+    width: 100%;
+  }
+
+  .wrapper-article button {
+    margin-left: 5rem;
+  }
+  .home-page-article .wrapper-article {
+    padding: 8rem 8rem 0 7rem;
+  }
+  .wrapper-article .wrapper-writeup h2 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .wrapper-article svg {
+    display: none;
+  }
+  /* OUR MARKET */
+  .containers {
+    width: var(--container-width-sm);
+    margin: auto 0;
+    padding-right: 4%;
+    padding-left: 2%;
+  }
+  .containers h2 {
+    /* margin-right: 5%; */
+  }
+  .container-card {
+    display: block;
+  }
+  .card {
+    width: 100%;
+  }
+
+  .broker-child .broker-child2 {
+    margin: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 18px;
+  }
+
+  .broker-child2 #broker-btn {
+    padding: 10px;
+    font-size: 12px;
+    margin-top: -13rem;
+  }
+  .broker-child2 #broker-btn svg {
+    display: none;
+  }
+
+  .broker-child {
+    height: 40vh;
+    width: 100%;
+    /* background-color: #097c0d; */
+  }
+
+  .broker-img img {
+    display: none;
+  }
+  .seller-child2 {
+    display: none;
+  }
+  .seller-btn {
+    font-size: 10px;
+    margin-top: 2rem;
+  }
+  .seller-btn svg {
+    display: none;
+  }
+  .seller-child1 {
+    height: 45vh;
+  }
+
+  .seller-child1 .seller-content {
+    margin-top: 1rem;
+  }
+  .seller-content p {
+    font-size: 15px;
+  }
+
+  .seller-content h3 {
+    font-size: 25px;
+  }
+
+  .payment-partners .partner-with {
+    height: 70vh;
+  }
+  .payment-partners .partners {
+    flex-direction: column;
+    padding: 35px;
+  }
+  .payment-partners .partner-with {
+    align-items: center;
+  }
+  .partner-with .partners .tiidelab img {
+    padding: 1rem;
+    height: 20vh;
+  }
+  .partner-with .partners .neca img {
+    margin-top: -2rem;
+    height: 20vh;
+    padding: 1rem;
+  }
+  .payment-partners .partner-with h3 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3rem;
+  }
+  .pay-stack {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .categories-home-section {
+    /* width: var(--container-width-sm); */
+    margin-top: -14%;
+    width: 90%;
+    margin-left: 1.2rem;
+  }
+  /* .wrapper-writeup h2 {
+    font-size: 10px;
+  } */
+  .wrapper-article button {
+    margin-left: 4rem;
+  }
+  .home-page-article {
+    height: 50vh;
+  }
+
+  .banner-images img {
+    height: 50vh;
+  }
+  .home-page-aside-list {
+    /* overflow-x: auto; */
+    display: none;
+  }
+
+  .home-page-article .wrapper-article {
+    padding: 3rem 3rem 0 3rem;
+    /* padding-top: 3rem; */
+    margin: auto 0;
+    text-align: center;
+  }
+
+  .wrapper-article button {
+    /* padding: 10px 15px 10px 15px; */
+    text-align: center;
+    font-size: 16px;
+  }
+  .wrapper-article .wrapper-writeup h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .wrapper-article .wrapper-writeup p {
+    font-size: 16px;
+  }
+  .wrapper-article svg {
+    display: none;
+  }
+
+  .broker-child .broker-child2 {
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+
+  .broker-child2 #broker-btn {
+    margin-top: -10rem;
+    padding: 5px;
+    /* font-size: 16px; */
+  }
+  .seller-child1 .seller-content {
+    margin-top: 4rem;
+  }
+  .seller-btn {
+    /* padding: 10px 20px; */
+    font-size: 16px;
+  }
+  .all-payment {
+    display: inline-block;
+    border: 2px solid #dfe2e6;
+    width: 100%;
+  }
+  .all-payment-writeup {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pay img {
+    width: 40px;
+    height: 25px;
+    margin: 7px;
+  }
+}

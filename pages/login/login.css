@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Mobile view */
+.login-container {
+    background: url(/assets/login-bg.png) no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form.login-form {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    max-width: 350px;
+    width: 80%;
+    padding: 2.5rem;
+    margin: 5rem 0;
+}
+
+form.login-form h3 {
+    color: var(--color-primary);
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+form.login-form label {
+    color: var(--color-bg-shade600);
+    /* color: var(--color-bg-shade50); */
+    /* color: var(--color-bg-shade700); */
+    font-weight: 800;
+    display: block;
+    margin: 1rem 0;
+}
+
+form.login-form input {
+    border: 1.5px solid var(--color-bg-shade50);
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.7rem;
+}
+
+form.login-form .password {
+    position: relative;
+}
+
+form.login-form i.fa-eye {
+    color: #7A8699;
+    /* color: var(--color-bg-shade50); */
+    font-size: 1.2rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+form.login-form input:focus {
+    outline: none;
+}
+
+form.login-form button {
+    background-color: transparent;
+    border: 2px solid var(--color-bg-shade50);
+    border-radius: 5px;
+    display: block;
+    color: var(--color-primary);
+    font-weight: 700;
+    margin: 1.5rem auto;
+    padding: 0.5rem 0.7rem;
+    transition: var(--transition);
+}
+form.login-form button:hover{
+    background: var(--color-primary-hover);
+    color: var(--color-white);
+}
+
+form.login-form p {
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+}
+
+form.login-form p a {
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Large view */
+@media (min-width: 764px) {
+    form.login-form {
+        max-width: 410px;
+        margin: 5rem 0;
+    }
+}

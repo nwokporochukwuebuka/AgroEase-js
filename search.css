@@ -1,0 +1,52 @@
+.input-search {
+    margin: 0 auto;
+    border-radius: 5px;
+   
+    position: relative;
+    width: 450px;
+  }
+  
+  
+  
+ .removeresults{
+  display: none;
+ }
+  
+  .autocomplete {
+    padding: 0px;
+   
+    
+  }
+  .display-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:  #54bf58;
+    border-radius: 10px;
+    
+  }
+  .autocomplete ul {margin: 0; padding: 0; }
+  .autocomplete ul li {
+    list-style: none;
+    border-radius: 3px;
+    opacity: 0;
+    display: none;
+    padding: 8px 12px;
+    transition: all .5s linear;
+  }
+  
+  .show .autocomplete ul li {
+    opacity: 1;
+    display: block;
+  }
+  
+  .show .autocomplete {
+    padding: 10px;
+  }
+  
+  .autocomplete ul li:hover {
+    background: #ececec;
+    cursor: pointer;
+    
+  
+  }

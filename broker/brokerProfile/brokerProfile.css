@@ -1,0 +1,140 @@
+#brokerProfile h3 {
+  margin-top: -3rem;
+  padding-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+form {
+  padding: 5rem;
+  /* border: 1px solid black; */
+  margin: 6rem auto;
+  width: 80%;
+  margin-top: 6rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-bottom: 1.5rem;
+}
+
+.broker-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 70%;
+  gap: 90px;
+  padding: 15px;
+  /* margin-bottom: 0 1rem 1.5rem 1rem; */
+  color: var(--color-bg-shade600);
+  /* padding-left: 2rem; */
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  padding-right: 6rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: 12.6pt;
+  text-indent: 5px;
+  border: solid 1.5px #d3d3d3;
+  transition: 1s;
+  /*  */
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+input[type="text"],
+input[type="number"],
+input[type="password"]:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+  outline-width: 0px;
+}
+.address {
+  /* width: 90%; */
+  padding-right: 30rem;
+  margin-left: 1rem;
+}
+.radio-shift {
+  margin-left: 5rem;
+}
+
+.broker-radio {
+  display: flex;
+}
+.lab {
+  padding-left: 3rem;
+}
+input[type="radio"] {
+  filter: hue-rotate(240deg);
+  margin-left: 1rem;
+}
+
+.brokerprofile-submit {
+  background-color: green;
+  font-size: 10px;
+  color: #fff;
+  padding: 0.5rem;
+  padding-right: 4rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+.getId h2 {
+  cursor: pointer;
+}
+.writeup {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.2em;
+}
+
+.brokerprofileinfo {
+  padding-left: 10px;
+}
+
+.brokerprofileinfo span {
+  color: rgb(11, 187, 11);
+}
+
+.box-click {
+  filter: hue-rotate(240deg);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.displayID {
+  padding: 10% 10% 10% 25%;
+  text-align: center;
+  color: #fff;
+}
+
+.displayID h1 {
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.displayID p {
+  font-size: 20px;
+}
+
+.close {
+  background-color: green;
+  padding: 6px;
+  color: #fff;
+  outline-color: beige;
+  border-radius: 7px;
+  cursor: pointer;
+}

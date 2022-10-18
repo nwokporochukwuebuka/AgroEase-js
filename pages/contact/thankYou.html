@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body{
+            background-color: #097C0D;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+.box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30vh;
+            background-color: white;
+            height: 10rem;
+            font-size: 5rem;
+        }
+        @media screen and (max-width: 767px){
+            .box{
+                font-size: 1.5rem;
+                
+            }
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px){
+                .box{
+                font-size: 3rem;
+                
+            }
+
+            }
+    </style>
+</head>
+<body class="redirect">
+    <main class="box"> Thank You For Contacting Us</main>
+    <script >
+setTimeout(function (){
+ window.location.href='/pages/homepage/homepage.html'   
+}, 2000)
+
+    </script>
+</body>
+</html>

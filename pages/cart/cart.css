@@ -1,0 +1,101 @@
+/* order-summary starts here */
+.order-summary-wrapper {
+  background-color: var(--color-white);
+  
+  width: 50%;
+  margin: 2rem auto;
+ 
+  border: 1px solid #eee;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* z-index: 500; */
+  /* opacity: 1; */
+}
+.order-summary-container{
+  padding: 1rem;
+}
+.order-summary-txt{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.728rem;
+  line-height: 2rem;
+  color: var(--color-black);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.order-card-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 0.625rem;
+  margin-bottom: 1rem;
+}
+.item-name-icon{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.order-img{
+  height: 180px;
+  width: 300px;
+}
+.close-btn{
+  background-color: var(--color-white);
+  border: none;
+}
+.close-btn .fa-close{
+  font-size: 1.2rem;
+  color: rgba(13, 13, 13, 0.5);;
+}
+.checkout-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.checkout-btn{
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 1px solid #097C0D;
+  border-radius: 0.625rem;
+  padding: 0.625rem 0.9375rem;
+  width: 12rem;
+  height: 2.75rem;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+.checkout-btn:hover{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.order-plus, .order-times, .order-qty{
+  padding: 0 0.2rem;
+}
+.order-times .fa-times{
+  font-size: 0.625rem;
+}
+.order-price{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Subtotal container starts here */
+.subtotal-container{
+  background-color: var(--color-bg-shade40);
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.subtotal-flex{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+.total-calc{
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* Subtotal container ends here */
+/* order-summary starts here */

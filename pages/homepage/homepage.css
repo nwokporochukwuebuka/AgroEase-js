@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* A SECTION OF GRID WITH SIDE BAR */
+
+.categories-home-section {
+  display: flex;
+  width: var(--container-width-lg);
+  gap: 15px;
+  margin: 2% 6.5% 0 6%;
+  height: 70vh;
+}
+.home-page-aside-list {
+  background-color: var(--color-primary-variant);
+  font-weight: bold;
+  width: 20%;
+  margin-left: 1.8rem;
+}
+.categories-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* line-height: 4rem; */
+  margin-top: 1rem;
+}
+
+.categories-svg svg {
+  margin-right: 7px;
+}
+.categories-home ul li {
+  padding-top: 2rem;
+}
+
+.categories-home ul {
+  padding: 2rem;
+}
+
+.home-page-aside-list ul li span {
+  margin-left: 25px;
+}
+
+.home-page-article {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+}
+
+.banner-images img {
+  width: 100%;
+  height: 70vh;
+}
+
+.home-page-article .wrapper-article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  /* background-color: blue; */
+  padding: 12rem 25rem 0 4rem;
+  /* opacity: 0.4;
+  z-index: -1; */
+  z-index: 1;
+}
+.wrapper-article .wrapper-writeup {
+  margin-bottom: 2rem;
+}
+
+.wrapper-article .wrapper-writeup h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+.wrapper-article .wrapper-writeup p {
+  line-height: 3;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.wrapper-article button {
+  display: flex;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--color-primary);
+  border-radius: 0.4rem;
+  border: 1px solid var(--color-white);
+}
+
+.wrapper-article button:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-white);
+  cursor: pointer;
+}
+.buttn-buy-now svg {
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  fill: var(--color-primary);
+  cursor: pointer;
+}
+
+.mySlides {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+/* OUR MARKET */
+
+/* CARD SECTION */
+.containers {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3%;
+  margin-top: 2rem;
+  width: 100%;
+}
+.containers h2 {
+  text-align: center;
+  margin-top: 4rem;
+}
+.card {
+  width: 21.7rem;
+  margin: 10px;
+  height: 415px;
+  border: 1px solid #dfe2e6;
+  transition: 2s;
+}
+
+.bag img {
+  height: 230px;
+  width: 100%;
+}
+.price {
+  padding: 10px;
+}
+
+.container-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.share {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.share .carte {
+  background-color: #e6f2e7;
+  border: 1px solid #00ab66;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 1px 10px;
+}
+.share .carte svg {
+  fill: #00ab66;
+}
+
+.card h4 {
+  color: #097c0d;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+#buy {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #097c0d;
+  border: #097c0d;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#buy:hover {
+  background-color: #dfe2e6;
+  color: #097c0d;
+  border: #097c0d;
+}
+
+/* PAGINATION */
+
+.pagenumbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagenumbers button {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--color-bg-shade40);
+  margin: 5px;
+  border: 1px solid green;
+  transition: 0.4s;
+  color: #000;
+  font-size: 12px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+  background-color: #097c0d;
+  color: #ccc;
+}
+
+.pagenumbers button.active {
+  background-color: #097c0d;
+  color: #ccc;
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2); */
+}
+i {
+  color: tomato;
+}
+del {
+  color: tomato;
+  text-decoration: line-through;
+}
+/* BROKER SCTION */
+.broker-man {
+  margin-top: 2rem;
+  display: flex;
+  /* width: 100%; */
+}
+.broker-child {
+  width: 65%;
+  height: 80vh;
+  background-color: #097c0d;
+}
+.broker-img img {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+.broker-child .broker-child2 {
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  font-weight: 200;
+  margin: 15rem;
+  margin-top: 5rem;
+  padding: 3rem;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.broker-child2 #broker-btn {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #097c0d;
+  color: #fff;
+  outline: none;
+  border: #097c0d;
+  border-radius: 5px;
+  margin-top: -15rem;
+  cursor: pointer;
+}
+.broker-child2 #broker-btn:hover {
+  background-color: var(--color-primary-variant);
+  border: #097c0d;
+  color: #097c0d;
+}
+
+/* seller */
+.seller-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.seller-child1 {
+  width: 100%;
+  height: 80vh;
+  background-color: var(--color-primary-variant);
+  color: #fff;
+  padding: 20px;
+}
+.seller-child2 {
+  width: 70%;
+  color: #097c0d;
+}
+.seller-child2 img {
+  height: 80vh;
+  width: 100%;
+}
+.seller-content {
+  line-height: 1.2;
+}
+.seller-content p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.seller-content p span {
+  color: orangered;
+  font-weight: bold;
+}
+.seller-content h3 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.seller-child1 .seller-content {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  margin-top: 7rem;
+  font-weight: 200;
+}
+
+.seller-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #097c0d;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg-shade40);
+}
+
+.seller-btn:hover {
+  background-color: var(--color-bg-shade50);
+}
+
+/* PARTNERS AND PAYMENT SECTION */
+.payment-partners {
+  margin-bottom: 4rem;
+}
+.all-payment {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  border: 2px solid #dfe2e6;
+}
+.pay img {
+  margin-left: 30px;
+}
+
+.all-payment img {
+  height: 5vh;
+  cursor: pointer;
+}
+.partner-with {
+  background-color: green;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: auto 0;
+  align-items: center;
+}
+.partner-with h3 {
+  text-align: center;
+  color: yellow;
+  font-size: 30px;
+}
+.partners .tiidelab img {
+  height: 20vh;
+}
+
+.partners .neca img {
+  height: 20vh;
+  margin: 2rem;
+}
+
+.sidebar-bottom {
+  display: none;
+}

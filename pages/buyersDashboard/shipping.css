@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.buyers-dasboard-menu {
+    display: none;
+}
+
+.shipping-container {
+    background-color: var(--color-bg-shade10);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+/* progressbar */
+
+.farmer-progress-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.farmer-progress-bar::before,
+.progress {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.progress {
+    background-color: #097c0d;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.progress-step {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    /* box-shadow: inset(1px 1px 2px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.progress-step::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    font-size: 0.85rem;
+}
+
+.progress-step-active {
+    background-color: #097c0d;
+    box-shadow: 0 0 20px 0 #097c0d;
+}
+
+
+/* shipping form */
+
+.shipping-form {
+    border-radius: 1rem;
+    /* max-width: 100%; */
+    width: 100%;
+    padding: 2.5rem;
+    margin: 5rem 0;
+    display: none;
+}
+
+.shipping-form-step {
+    max-width: 400px;
+}
+
+.shipping-form-active {
+    display: block;
+}
+
+.shipping-form h3 {
+    color: #000000;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.shipping-form label {
+    color: #000000;
+    font-weight: 400;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.shipping-form input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.7rem;
+}
+
+.shipping-form .state .card-expiry {
+    display: flex;
+}
+
+.card-expiry span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/*
+form.login-form .password {
+    position: relative;
+}
+
+form.login-form i.fa-eye {
+    color: #7A8699;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.shipping-form input:focus {
+    outline: none;
+}
+*/
+
+.shipping-form-group-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipping-form .shipping-proceed-btn {
+    background-color: #097c0d;
+    /* border: 2px solid var(--color-bg-shade50); */
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    margin: 1.5rem auto;
+    padding: 0.5rem 0.7rem;
+    transition: var(--transition);
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.shipping-form .shipping-proceed-btn:hover {
+    background: var(--color-white);
+    color: var(--color-primary-hover);
+    border: 1px solid var(--color-bg-shade50);
+}
+
+
+/*
+form.login-form p {
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+}
+
+form.login-form p a {
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+*/
+
+.errorMessage {
+    color: red;
+    padding: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+@media (min-width: 764px) {
+    .shipping-form {
+        /* max-width: 600px; */
+        margin: 3rem 0;
+    }
+    .shipping-form-step {
+        max-width: 600px;
+    }
+    .shipping-form .shipping-proceed-btn {
+        width: 40%;
+    }
+    .shipping-form h3 {
+        font-size: 40px;
+    }
+    .shipping-form .state {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .buyers-dasboard-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -2.4rem;
+    }
+    .buyers-dasboard-menu p {
+        font-size: 16px;
+        color: #097c0d;
+        font-weight: 700;
+    }
+    .buyers-dashboard-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buyers-back-btn {
+        margin-top: -2.4rem;
+    }
+    #buyers-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid var(--color-bg-shade10);
+        margin: 0 3rem 0 1rem;
+    }
+    /* .buyers-dashboard-details svg{
+    width: 20px;
+    height: 20px;
+    color: #097C0D;
+   } */
+    /* body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ccc;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+    .buyers-caret-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .buyers-caret {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 12px solid #097c0d;
+        transition: 0.3s;
+        /* background-color: #fff; */
+    }
+    .caret-rotate {
+        transform: rotate(180deg);
+    }
+    .buyers-list-container {
+        list-style: none;
+        padding: 0.2rem 0.5rem;
+        /* background: #eee; */
+        background-color: var(--color-bg-shade40);
+        /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); */
+        /* border-radius: 0.5rem; */
+        color: #222;
+        position: absolute;
+        top: 4rem;
+        opacity: 0;
+        display: none;
+    }
+    .buyers-list-container li {
+        margin: 0.4rem;
+        padding: 0.2rem;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        color: #097c0d;
+    }
+    li:hover {
+        background-color: var(--color-bg-shade40);
+        color: var(--color-black);
+    }
+    .menu-open {
+        display: block;
+        opacity: 1;
+    }
+    .card-expiry span {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .farmer-progress-bar {
+        max-width: 700px;
+    }
+}

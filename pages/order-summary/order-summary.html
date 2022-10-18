@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./order-summary.css">
+    <!-- This loads the script asynchronously -->
+    <script src="./order-summary.js" async></script>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- START OF NAVIGATION BAR -->
+    <nav>
+        <div class="nav-width container">
+            <a href="/pages/homepage/homepage.html"><img src="/assets/logo.png" alt="" class="nav-logos"></a>
+            <div class="container search-list">
+                <div class="nav-input-cart">
+                    <div class="input-search">
+                        <input type="text" class="search" placeholder="Search Products">
+                        <div>
+                            <button class="btn-green">Search</button>
+                        </div>
+                    </div>
+                    <div class="cart btn-white">
+                        <span id="counter">1</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M4 6.414L.757 3.172l1.415-1.415L5.414 5h15.242a1 1 0 0 1 .958 1.287l-2.4 8a1 1 0 0 1-.958.713H6v2h11v2H5a1 1 0 0 1-1-1V6.414zM5.5 23a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm12 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                                fill="rgba(9,124,13,1)" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <a href="/pages/about/about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="/pages/contact/contact.html">
+                            <li>Contact</li>
+                        </a>
+                        <a href="/pages/homepage/homepage.html">
+                            <li>Blog
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="/pages/agronews/agronews.html">Agro News</a></li>
+                                        <li><a href="/pages/agroeducation/agroeducation.html">Agro Education</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="/pages/homepage/homepage.html">
+                            <li>Help
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="/pages/faq/faq.html">FAQs</a></li>
+                                    </ul>
+                            </li>
+                        </a>
+                        <a href="/pages/homepage/homepage.html">
+                            <li>Account
+                                <div class="sub-menu1">
+                                    <ul>
+                                        <li><a href="/pages/login/login.html">Log In</a></li>
+                                        <li><a href="/pages/createaccount/createaccount.html">Create Account</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="nav-input-cart2">
+            <div class="input-search2">
+                <input type="text" class="search" placeholder="Search Products">
+                <div>
+                    <button class="btn-green">Search</button>
+                </div>
+            </div>
+            <div class="cart2 btn-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M4 6.414L.757 3.172l1.415-1.415L5.414 5h15.242a1 1 0 0 1 .958 1.287l-2.4 8a1 1 0 0 1-.958.713H6v2h11v2H5a1 1 0 0 1-1-1V6.414zM5.5 23a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm12 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                        fill="rgba(9,124,13,1)" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVIGATION BAR -->
+
+    <!-- START OF MAIN CONTENT -->
+    <main id="content">
+
+        <!-- TOP PICKS -->
+        <div class="summary-top-picks">
+
+            <p class="summary-title" id="summary-top-picks-title">Top Picks</p>
+            <div class="summary-container">
+
+                <div class="summary-item" id="summary-item-one">
+                    <div class="summary-image"><img src="/assets/chicks-1.png" alt=""></div>
+                    <div class="summary-description">
+                        <p class="summary-item-name">Fulani cow<br>special breed</p>
+                        <p class="summary-price">N120,000.00</p>
+                    </div>
+                </div>
+
+                <div class="summary-item" id="summary-item-two">
+                    <div class="summary-image"><img src="/assets/fulani-cows.png" alt=""></div>
+                    <div class="summary-description">
+                        <p class="summary-item-name">Fulani cow<br>special breed</p>
+                        <p class="summary-price">N120,000.00</p>
+                    </div>
+                </div>
+
+                <div class="summary-item" id="summary-item-three">
+                    <div class="summary-image"><img src="/assets/rice-bag.png" alt=""></div>
+                    <div class="summary-description">
+                        <p class="summary-item-name">Fulani cow<br>special breed</p>
+                        <p class="summary-price">N120,000.00</p>
+                    </div>
+                </div>
+
+                <div class="summary-item" id="summary-item-four">
+                    <div class="summary-image"><img src="/assets/tractor.png" alt=""></div>
+                    <div class="summary-description">
+                        <p class="summary-item-name">Fulani cow<br>special breed</p>
+                        <p class="summary-price">N120,000.00</p>
+                    </div>
+                </div>
+                <div class="summary-item" id="summary-item-five">
+                    <div class="summary-image"><img src="/assets/chicks-1.png" alt=""></div>
+                    <div class="summary-description">
+                        <p class="summary-item-name">Fulani cow<br>special breed</p>
+                        <p class="summary-price">N120,000.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ORDER SUMMARY  -->
+        <div id="order-summary">
+
+            <div class="summary-order-container">
+                <div class="summary-order-container-items">
+                    <p id="summary-title">Order Summary</p>
+
+                    <div class="summary-item-container">
+                        <div class="summary-item-image"><img src="/assets/chicks.png" alt=""></div>
+                        <div class="summary-item-description">
+                            <i class="uil uil-times mine"></i>
+                            <p class="summary-item-name">Fulani cow special breed</p>
+                            <!-- <input type="number" class="summary-item-quantity"> -->
+                            <div class="add-sub-qty">
+                                <span class="sub-item">-</span>
+                                <span class="item-qty">1</span>
+                                <span class="add-item">+</span>
+                            </div>
+                            <p class="summary-price">N120,000.00</p>
+                        </div>
+                    </div>
+
+                    <div class="summary-item-container">
+                        <div class="summary-item-image"><img src="/assets/chicks.png" alt=""></div>
+                        <div class="summary-item-description">
+                            <i class="uil uil-times mine"></i>
+                            <p class="summary-item-name">Fulani cow special breed</p>
+                            <!-- <input type="number" class="summary-item-quantity"> -->
+                            <div class="add-sub-qty">
+                                <span class="sub-item">-</span>
+                                <span class="item-qty">1</span>
+                                <span class="add-item">+</span>
+                            </div>
+                            <p class="summary-price">N120,000.00</p>
+                        </div>
+                    </div>
+
+                    <div class="summary-item-container">
+                        <div class="summary-item-image"><img src="/assets/chicks.png" alt=""></div>
+                        <div class="summary-item-description">
+                            <i class="uil uil-times mine"></i>
+                            <p class="summary-item-name">Fulani cow special breed</p>
+                            <!-- <input type="number" class="summary-item-quantity"> -->
+                            <div class="add-sub-qty">
+                                <span class="sub-item">-</span>
+                                <span class="item-qty">1</span>
+                                <span class="add-item">+</span>
+                            </div>
+                            <p class="summary-price">N120,000.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="summary-order-container-items second-container">
+
+                    <div class="summary-button">
+                        <button id="summary-checkout"><a href="../buyersDashboard/shipping.html">Proceed to checkout</a></button>
+                    </div>
+
+                    <div class="summary-fees">
+                        <p class="summary-sub-total-prices"><span>Subtotal</span><span>N173,000.00</span></p>
+                        <p class="summary-total-vat"><span>VAT</span><span>N0.00</span></p>
+                        <p class="summary-total-shipping-prices"><span>Shipping</span><span>N0.00</span></p>
+                        <p class="summary-total-prices"><span>Total</span><span class="summary-total">N173,400.00</span></p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.client-header {
+  margin-top: 5rem;
+  /* margin-left: 1rem; */
+}
+.client-header h2 {
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.table-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #adacac; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 0.5px solid; */
+}
+
+th svg {
+  height: 12px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.header_fixed {
+  max-height: 100vh;
+  width: 100%;
+  overflow: auto;
+  /* border: 5px solid #dddddd; */
+}
+
+.header_fixed thead th {
+  position: sticky;
+  top: 0;
+  /* background-color: black; */
+  background-color: #c2c7d0;
+  color: #000;
+  font-size: 12px;
+  padding: 10px 10px;
+  padding-left: 1.5rem;
+  font-weight: bold;
+}
+#active {
+  color: rgb(34, 235, 34);
+}
+/* th, */
+td {
+  /* border-bottom: 1px solid #dddddd; */
+  padding: 10px 20px;
+  padding-left: 2rem;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+.shift {
+  padding-left: 6rem;
+}
+.state {
+  padding-left: 5rem;
+}
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #edeef1;
+} */
+
+tr:hover td {
+  color: #44b478;
+  /* cursor: pointer; */
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

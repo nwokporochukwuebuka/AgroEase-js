@@ -1,0 +1,1 @@
+let addCart = document.querySelectorAll()
